@@ -15,3 +15,7 @@ body {
 .container {
     text-align: center;
 }
+
+p {
+    font-style: Rubik,sans-serif;
+}
