@@ -1,0 +1,23 @@
+h2 {
+    color: #FFBF63;
+}
+
+.custom-h1 {
+    font-size: 2.8em; /*Ajustar tamaño*/
+}
+
+.custom-btn {
+    background-color: #FFBF63; 
+    color: #333;
+    width: 250px;
+}
+.center-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.footer {
+    background-color: #ffbe63; 
+}

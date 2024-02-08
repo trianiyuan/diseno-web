@@ -5,3 +5,32 @@
 .fondo1 {
     background-color: rgba(255, 60, 0, 0.397);
 }
+
+.red-text {
+    color: rgb(255, 150, 150);
+}
+
+.custom-color-btn {
+    color: rgb(255, 150, 150);
+    border-color: rgb(255, 150, 150);
+}
+
+.custom-color-btn:hover,
+.custom-color-btn:active,
+.custom-color-btn:focus {
+    background-color: rgb(255, 150, 150);
+    border-color: rgb(255, 150, 150);
+    color: white;
+}
+
+.custom-btn {
+    background-color: rgb(255, 150, 150);
+    border-color: rgb(255, 150, 150);
+}
+
+.custom-btn:hover,
+.custom-btn:active,
+.custom-btn:focus {
+    background-color: rgb(220, 120, 120);
+    border-color: rgb(220, 120, 120);
+}
