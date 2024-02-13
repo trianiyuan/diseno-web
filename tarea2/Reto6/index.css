@@ -1,0 +1,30 @@
+.banner {
+    display: flex;
+    align-items: center;
+    /*banner a todo lo ancho, lo de cover*/
+    background-size: cover;
+    background-position: center;
+    background-image: url(/tarea2/Reto6/imagenes/Bici.jpg);
+    /*color del modo*/
+    background-color: #4a587793;
+    /*modo de color*/
+    background-blend-mode: luminosity;
+    /* profunidad */
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+.espacio {
+    padding: 120px 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.btn-rounded {
+    border-radius: 30px; /* Puedes ajustar este valor según lo redondeado que quieras que sean los botones */
+}
