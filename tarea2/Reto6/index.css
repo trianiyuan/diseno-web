@@ -13,6 +13,18 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
 }
 
+.navbar {
+    background-color: rgb(253, 170, 184) !important; /* Cambiar el color de fondo a rosado */
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 164, 148, 0.479);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 164, 148, 0.479); /* Hacer el fondo transparente al pasar el ratón */
+}
+
 .espacio {
     padding: 120px 0;
 }
@@ -27,4 +39,13 @@ p {
 
 .btn-rounded {
     border-radius: 30px; /* Puedes ajustar este valor según lo redondeado que quieras que sean los botones */
+}
+
+.footer {
+    background-color:  rgb(253, 170, 184); 
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px;
 }
