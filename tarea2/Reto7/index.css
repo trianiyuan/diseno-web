@@ -1,0 +1,50 @@
+.navbar {
+    background-color: rgb(253, 170, 184) !important; /* Cambiar el color de fondo a rosado */
+}
+
+@import url("/tarea2/Reto7/imagehover.css/css/imagehover.css");
+
+.dropdown-menu{
+    background-color: rgba(255, 164, 148, 0.479);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 164, 148, 0.479); /* Hacer el fondo transparente al pasar el ratón */
+}
+
+.banner1 {
+    background-image: url(../tarea2/HD-wallpaper-cherry-blossom.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.301);
+}
+
+.container-fluid2 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.fondo1{
+    background-color: rgb(253, 170, 184);
+}
+.banner2 {
+    background-image: url(/tarea2/blossom.jpg);
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.082);
+}
+
+.footer {
+    background-color: #cfc2b4; 
+    background-size: cover;
+}

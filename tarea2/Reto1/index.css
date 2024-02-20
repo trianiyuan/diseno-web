@@ -24,8 +24,9 @@
 }
 
 .custom-btn {
+    color: rgb(255, 255, 255);
     background-color: rgb(255, 150, 150);
-    border-color: rgb(255, 150, 150);
+    border-color: rgb(255, 255, 255);
 }
 
 .custom-btn:hover,
@@ -33,4 +34,20 @@
 .custom-btn:focus {
     background-color: rgb(220, 120, 120);
     border-color: rgb(220, 120, 120);
+}
+
+.navbar {
+    background-color: rgb(255, 150, 150) !important; /* Cambiar el color de fondo a rosado */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 164, 148, 0.479);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 179, 221, 0.719); /* Hacer el fondo transparente al pasar el ratón */
 }
