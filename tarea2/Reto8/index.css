@@ -1,0 +1,87 @@
+.navbar {
+    background-color: rgb(253, 170, 184) !important; /* Cambiar el color de fondo a rosado */
+    width: 100%;
+}
+
+
+.dropdown-menu{
+    background-color: rgba(255, 164, 148, 0.479);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 164, 148, 0.479); /* Hacer el fondo transparente al pasar el ratón */
+}
+
+.imghvr-shutter-out-vert:hover figcaption {
+    background-color: rgb(250, 205, 211); /* Change this to the desired color */
+    transition-property: background-color; /* Only transition background-color */
+    transition-duration: 0.5s;/* You can also modify other properties like color, font-size, etc. */
+    color: #000;
+    box-shadow: none;
+    font-size: 35px;
+    font-style: italic;
+}
+
+body {
+    background-image: url(/tarea2/Reto8/imagenes/fondo1.jpg);
+}
+
+.fondo1{
+    background-image: url(/tarea2/Reto8/imagenes/fondo1.jpg);
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para los íconos de redes sociales */
+.icons {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 0px; /* Elimina el relleno predeterminado de la lista */
+    margin: 0; /* Elimina el margen predeterminado de la lista */
+    display: flex; /* Utiliza flexbox para alinear los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.container-fluid4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.icons li {
+    margin-right: 10px; /* Espacio entre los íconos */
+}
+
+.icons a {
+    font-size: 40px;
+    display: inline-block; /* Hace que los íconos sean elementos de bloque */
+    width: 80px; /* Ancho uniforme para todos los íconos */
+    height: 80px; /* Altura uniforme para todos los íconos */
+    line-height: 80px; /* Alinea verticalmente los íconos */
+    text-align: center; /* Centra el contenido dentro de los íconos */
+    color: white; /* Color de los íconos /
+    transition: color 0.3s ease; /* Transición suave del color */
+    text-decoration: none;
+    border-radius: 50%; /* Hace que los íconos sean circulares*/
+    background-color: rgba(255, 255, 255, 0.2); /* Color de fondo transparente con opacidad */
+}
+
+.icons a:hover {
+    color: beige; /* Cambia de color al pasar el ratón */
+}
+
+.footer {
+    background-size: cover;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.527);
+    text-align: center; /* Para centrar el texto */
+    padding: 20px; /* Añadir un espacio de relleno para mayor legibilidad */
+}
+
+.footer ul.icons {
+    margin-bottom: 10px; /* Añadir un espacio entre los iconos y el texto */
+}
+
+.color-footer {
+    color: rgba(255, 255, 255, 0.473);
+}
+
+
