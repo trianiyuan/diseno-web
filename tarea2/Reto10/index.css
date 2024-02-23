@@ -1,0 +1,54 @@
+.navbar {
+    background-color: rgb(253, 170, 184) !important; /* Cambiar el color de fondo a rosado */
+}
+
+
+.dropdown-menu{
+    background-color: rgba(255, 164, 148, 0.479);
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255, 164, 148, 0.479); /* Hacer el fondo transparente al pasar el ratón */
+}
+
+.imghvr-shutter-out-vert:hover figcaption {
+    background-color: rgb(250, 205, 211); /* Change this to the desired color */
+    transition-property: background-color; /* Only transition background-color */
+    transition-duration: 0.5s;/* You can also modify other properties like color, font-size, etc. */
+    color: #000;
+    box-shadow: none;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.titulo1 {
+    font-size: 70px; /* Cambia el tamaño de la letra según sea necesario */
+}
+
+.titulo2 {
+    font-size: 25px; /* Cambia el tamaño de la letra según sea necesario */
+    font-style: italic;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.texto-grande1 {
+    font-size: 25px; /* Cambia el tamaño de la letra según sea necesario */
+}
+
+.texto-grande {
+    font-size: 18px; /* Cambia el tamaño de la letra según sea necesario */
+    padding-right: 60px;
+}
+
+.img-fluid img1{
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Establece el ancho máximo de las imágenes */
+}
+
+/* Define el color de fondo rosado */
+.fondo-rosado {
+    padding: 20px;
+    background-color:rgb(253, 170, 184); /* Cambia el código de color según el tono de rosa que prefieras */
+}
