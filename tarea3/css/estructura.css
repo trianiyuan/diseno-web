@@ -41,6 +41,7 @@ a {
     transition: all .2s ease-in-out;
     cursor: pointer;
     margin-left: 0px;
+    border-radius: 60px;
     width: 250px;
     height: 400px; /* Ajusta la altura según el tamaño de la imagen */
     background-size: 100% 100%; 
@@ -76,6 +77,24 @@ a {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
 }
 
+.text-red {
+    color: rgb(75, 11, 11); /* Cambiar el color a rojo */
+}
+
+.icon-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 107vh;
+    margin-top: 10px; 
+    margin-bottom: -900px;
+}
+
+#tripadvisor {
+    width: 100px; /* Ancho del SVG */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
 
 .fondo3 {
     background-color: rgb(68, 24, 24);
@@ -88,7 +107,7 @@ a {
     
 }
 
-.fondo9 {
+.fondo8 {
     background-color: rgba(48, 14, 14, 0.836);
     position: relative;
     width: 100vw; /* Ancho completo relativo al viewport */
@@ -99,7 +118,34 @@ a {
     
 }
 
+.fondo-rejilla {
+    background-color: rgba(48, 14, 14, 0.836);
+    position: relative;
+    width: 100vw; /* Ancho completo relativo al viewport */
+    border-radius: 50px;
+    word-spacing: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
+.texto-amarillo{
+    color: rgb(214, 184, 50);
+}
+
+
+.fondoFooter{
+    background-color: #411014;
+    margin-left: -30px;
+    margin-right: -35px;
+    margin-bottom: -40px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+
+.fondoFooter h2, h3{
+    color: white;
+    font-size: 15px;
+}
 .mapa {
     position: relative;
     width: 100vw; /* Ancho completo relativo al viewport */
@@ -108,6 +154,7 @@ a {
     margin-left: -50vw; /* Desplazamiento negativo por la mitad del ancho del viewport */
     margin-right: -50vw; 
 }
+
 
 .banner1 {
     position: relative;
@@ -126,6 +173,9 @@ a {
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
 }
 
+#textblack {
+    color: #000;
+}
 
 .bt1 {
     width: 250px;
@@ -151,6 +201,26 @@ a {
     border-radius: 30px;
     border-color: #ffffff7c;
     background-color: rgb(43, 9, 9) !important;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+    background-color: #200709a2;
+    padding-bottom: 75px;
+    padding-left: 2px;
+    border-radius: 70px;
+}
+
+.fondo0 {
+    background-color: rgb(80, 14, 14);
+}
+
+#flechabtn img {
+    filter: brightness(0) invert(1);
 }
 
 .enviar {
