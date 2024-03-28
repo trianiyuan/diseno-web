@@ -1,0 +1,326 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    background-color: #2703066e;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: all 1s solid;
+}
+
+.optmenu:hover{
+    color: #fff;
+    background-color: #3d2323ab;
+    transition: all 1s solid;
+}
+
+.optmenu:active {
+    background-color: brown;
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler{
+    background-color: #d6dbe300;
+    border: 3px solid #ffffff00;
+}
+
+.navbar-toggler:hover {
+    background-color: #cecece8e;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: 3px solid #5e0f0fa2;
+}
+
+
+/* PERSONALIZACION Linea MENU HAMBURGUESA */
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+header{
+	/*altura fija vertical*/
+	height: 50vh;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.575);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+header h1 {
+	text-shadow: 0 0 30px #fff;
+	letter-spacing: 5px;
+	font-size: 50px;
+    color: rgba(255, 255, 255, 0.719);
+
+}	
+header p{	
+	font-size: 20px;
+	border-radius: 24px;
+	box-shadow: inset 0 0 0 1000px rgba(41, 2, 2, 0.753);
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+/*el margin negativo -40px es para que haga el efecto que sube el cuadro*/
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.price-container {
+    height: 400px; /* Mismo tamaño que la imagen de fondo */
+    margin-bottom: 20px;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    height: 100%;
+    background-color: #fff;
+    border: 2px solid #d6d6d6;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-left: 0px;
+    border-radius: 60px;
+    width: 250px;
+    height: 400px; /* Ajusta la altura según el tamaño de la imagen */
+    background-size: 100% 100%; 
+}
+
+.price-table:hover {
+    background-color: #411014;
+    margin-top: -40px;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    border: none;
+    box-shadow: rgba(127, 197, 207, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.5) 0px 30px 60px -30px;
+}
+
+.price-table:hover * {
+    color: #fff !important;
+}
+
+.price-table.primero {
+    background-image: url('../imagenes/tour1.jpg'); 
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
+    
+}
+
+.price-table.segundo {
+    background-image: url('../imagenes/tour2.jpg'); 
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
+}
+
+.price-table.tercero {
+    background-image: url('../imagenes/tour3.jpg'); 
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.37);
+}
+
+.text-red {
+    color: rgb(75, 11, 11); /* Cambiar el color a rojo */
+}
+
+.icon-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 107vh;
+    margin-top: 10px; 
+    margin-bottom: -900px;
+}
+
+#tripadvisor {
+    width: 100px; /* Ancho del SVG */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+.fondo3 {
+    background-color: rgb(68, 24, 24);
+    position: relative;
+    width: 100vw; /* Ancho completo relativo al viewport */
+    left: 50%; /* Centrar horizontalmente */
+    right: 50%;
+    margin-left: -50vw; /* Desplazamiento negativo por la mitad del ancho del viewport */
+    margin-right: -50vw; 
+    
+}
+
+.fondo8 {
+    background-color: rgba(48, 14, 14, 0.836);
+    position: relative;
+    width: 100vw; /* Ancho completo relativo al viewport */
+    left: 50%; /* Centrar horizontalmente */
+    right: 50%;
+    margin-left: -50vw; /* Desplazamiento negativo por la mitad del ancho del viewport */
+    margin-right: -50vw; 
+    
+}
+
+.fondo-rejilla {
+    background-color: rgba(48, 14, 14, 0.836);
+    position: relative;
+    width: 100vw; /* Ancho completo relativo al viewport */
+    border-radius: 50px;
+    word-spacing: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.texto-amarillo{
+    color: rgb(214, 184, 50);
+}
+
+
+.fondoFooter{
+    background-color: #411014;
+    margin-left: -30px;
+    margin-right: -35px;
+    margin-bottom: -40px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+
+.fondoFooter h2, h3{
+    color: white;
+    font-size: 15px;
+}
+.mapa {
+    position: relative;
+    width: 100vw; /* Ancho completo relativo al viewport */
+    left: 50%; /* Centrar horizontalmente */
+    right: 50%;
+    margin-left: -50vw; /* Desplazamiento negativo por la mitad del ancho del viewport */
+    margin-right: -50vw; 
+}
+
+
+.banner1 {
+    position: relative;
+    width: 100vw; /* Ancho completo relativo al viewport */
+    left: 50%; /* Centrar horizontalmente */
+    right: 50%;
+    margin-left: -50vw; /* Desplazamiento negativo por la mitad del ancho del viewport */
+    margin-right: -50vw;
+    background-image: url('../imagenes/bannerp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: calc(40vh); /* Altura deseada */
+    background-color: rgba(71, 21, 21, 0.644);
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+#textblack {
+    color: #000;
+}
+
+.bt1 {
+    width: 250px;
+    height: 60px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 18px;
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #ffffff7c;
+    background-color: rgb(43, 9, 9) !important;
+}
+
+.bt2 {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 18px;
+    cursor: pointer;
+    border-width: 2px;
+    border-radius: 30px;
+    border-color: #ffffff7c;
+    background-color: rgb(43, 9, 9) !important;
+}
+
+.goto-top {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    width: 75px;
+    height: 50px;
+    background-color: #200709a2;
+    padding-bottom: 75px;
+    padding-left: 2px;
+    border-radius: 70px;
+}
+
+.fondo0 {
+    background-color: rgb(80, 14, 14);
+}
+
+#flechabtn img {
+    filter: brightness(0) invert(1);
+}
+
+.icono-blanco {
+    filter: brightness(0) invert(1);
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    height: auto;
+    margin-right: 20px; /* ajusta el margen derecho según sea necesario */
+}
+
+/* Eliminar el margen derecho del último icono */
+.logo-container img:last-child {
+    margin-right: 0;
+}
+
+.hr-white {
+    border-color: white; /* Hacer que las líneas sean blancas */
+    border-width: 1px; /* Ancho de la línea */
+}
+
+.link a {
+    text-decoration: none; /* Quitar subrayado */
+    color: white;
+}
+
+.link a:hover {
+    text-decoration: none; /* Quitar subrayado al hacer hover */
+    color: #b49402;
+}
+
+
+
+
+
