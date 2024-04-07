@@ -1,0 +1,64 @@
+/* extra small devices (landscape phones, 567px and down)*/
+
+@media (max-width: 576px) {
+    .fondo2 {
+        margin-top: 10px;
+        height: 2px;
+    }
+    .title {
+        font-size: 20px;
+        padding: none;
+    }
+    .subtitle, .btn{
+        font-size: 10px;
+        padding: none;
+    }
+    .imgPortada {
+        padding-top: 20px;
+        padding-bottom: 20px;;
+        max-width: 80%; 
+        height: auto; 
+        display: block; 
+    }
+}
+
+
+@media (max-width: 910px) {
+    .fondo2 {
+        margin-top: 10px;
+        height: 2px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .subtitle, .btn{
+        font-size: 10px;
+    }
+    .imgPortada {
+        padding-top: 20px;
+        padding-bottom: 20px;;
+        max-width:60%; 
+        height: auto; 
+        display: block; 
+    }
+}
+
+@media (max-width: 710px) {
+    .fondo2 {
+        margin-top: 10px;
+        height: 2px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .subtitle, .btn{
+        font-size: 10px;
+    }
+    .imgPortada {
+        padding-top: 20px;
+        padding-bottom: 20px;;
+        max-width:70%; 
+        height: auto; 
+        display: block; 
+    }
+}

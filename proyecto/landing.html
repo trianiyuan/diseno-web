@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Meili Maquillaje</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Hoja de estilo CSS personalizada-->
+        <link href="css/carousel.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/estructura.css">
+        <link rel="icon" href="imagenes/logo.png">
+        <link rel="stylesheet" href="css/imagehover.css">
+        <link rel="stylesheet" href="css/reglas.css">
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    </head>
+
+    <nav class="navbar navbar-expand-lg fondo1 fixed-top"><!--fixed top lo deja arriba -->
+        <div class="container">
+            <a class="navbar-brand logo" href="landing.html">
+                <!-- <h4 class="text-white">Empresa XYZ</h4> -->
+                <img src="imagenes/logo.jpg" alt="Logotipo empresarial" class="img-fluid logo" width="50px">
+            </a>
+            <!-- este codigo abajo de button es el boton hamburguesa, collapse es cuando se le declick al menu, se abra o cierre, el target es el div de abajo con el #navbarCollapse-->
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <!-- estilos de menu: mx-auto ml-auto mr-auto-->
+                <!-- centrar opciones: text-center -->
+                <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu" aria-current="page" href="#t1">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu" aria-current="page" href="#t2">Cejas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu" aria-current="page" href="#t3">Base/Contorno</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu" aria-current="page" href="#t4">Sombras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu" aria-current="page" href="#t5">Labiales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a data-scroll class="nav-link optmenu" aria-current="page" href="#t6">Contáctenos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <header class="container-fluid fondo1 d-flex flex-column align-items-center mb-5" data-vide-bg="videos/video1" id="inicio">
+        <div>            
+            <h1 class="text-center bebas-neue-regular animate__animated animate__fadeIn animate__delay-600ms title">Meiili</h1>
+            <h6 class="text-center text-white subtitle">Maquillaje</h6>
+            <div class="text-center">
+                <a href="#" target="_blank" class="btn btn-outline-light pdfTitle">Mockup Web</a>
+            </div>
+        </div>
+    </header>
+
+    <body>
+
+        <section class="container-fluid1">
+            <div class="container-fluid1">
+                <h1 class="titulo1 bebas-neue-regular">ESCOGE POR CATEGORÍA</h1>
+                <div class="row justify-content-center align-items-center"><!-- Alinea el contenido horizontalmente al centro -->
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="pagina1.html" class="d-block text-center"><!-- Cambia a 'd-block' para que el enlace ocupe todo el ancho -->
+                            <img class="imgPortada img-fluid mx-auto" src="imagenes/cejas.jpg" alt="Cejas"><!-- 'mx-auto' para centrar la imagen horizontalmente -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="pagina2.html" class="d-block text-center"><!-- Cambia a 'd-block' para que el enlace ocupe todo el ancho -->
+                            <img class="imgPortada img-fluid mx-auto" src="imagenes/base.jpg" alt="Base/Contorno"><!-- 'mx-auto' para centrar la imagen horizontalmente -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="pagina3.html" class="d-block text-center"><!-- Cambia a 'd-block' para que el enlace ocupe todo el ancho -->
+                            <img class="imgPortada img-fluid mx-auto" src="imagenes/sombras.jpg" alt="Sombras"><!-- 'mx-auto' para centrar la imagen horizontalmente -->
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="pagina4.html" class="d-block text-center"><!-- Cambia a 'd-block' para que el enlace ocupe todo el ancho -->
+                            <img class="imgPortada img-fluid mx-auto" src="imagenes/labiales.jpg" alt="Labiales"><!-- 'mx-auto' para centrar la imagen horizontalmente -->
+                        </a>
+                    </div>
+                </div>
+            </div>        
+        </section>
+        
+        
+    <section class="container-fluid2">
+        <div class="container pt-5">
+            <div class="">
+                <h2 class="text-center bebas-neue-regular wow animate__animated animate__slideInLeft animate__delay-100ms" id="t1"><strong>No existe nada mejor que el maquillaje.</strong></h2>
+            </div>
+            <div class="pt-5"></div>
+            </div>     
+    </section>
+
+    <section class="container-fluid3" data-vide-bg="videos/video2">
+
+    </section>
+
+    <section class="redes-sociales">
+        <div class="container-fluid6 pt-5">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="text-center bebas-neue-regular mb-4">Síguenos en nuestras redes sociales</h2>
+                    <div class="redes-icons text-center">
+                        <a href="#" target="_blank"><img class="rrss" src="imagenes/face.png" alt="Facebook"></a>
+                        <a href="#" target="_blank"><img class="rrss" src="imagenes/insta.png" alt="Instagram"></a>
+                        <a href="https://walink.co/0b6da0" target="_blank"><img class="rrss wa" src="imagenes/wa.png" alt="Whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+        
+        <footer class="fondoFooter">
+        <div class="container">
+            <h2 class="text-center">Meili Maquillaje © 2024 </h2>
+            <h3 class="text-center">Todos los derechos reservados.</h3>
+        </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+        <!-- Carga del JS Video (complemento JQUERY) -->
+        <script src="js/jquery.vide.js"></script>
+        <script src="js/scrollup.js"></script>
+
+        <!-- libreria Lottie JS-->
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@0.3.0/dist/lottie-player.js"></script>
+
+        <script src="js/wow.min.js"></script>
+        <!-- activa los efectos de animacion -->
+        <script>
+            new WOW().init();
+        </script>
+
+
+    </body>
+</html>
