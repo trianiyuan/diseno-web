@@ -1,0 +1,133 @@
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    color: #c97e7e;
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+}
+
+.optmenu {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    transition: all 1s solid;
+}
+
+.optmenu:hover{
+    color: #ffffff;
+    background-color: #636363ab;
+    transition: all 1s solid;
+}
+
+.optmenu:active {
+    background-color: rgb(110, 110, 110);
+}
+
+
+/* PERSONALIZACION MENU HAMBURGUESA */
+
+.navbar-toggler{
+    background-color: #d6dbe300;
+    border: 3px solid #ffffff00;
+}
+
+.navbar-toggler:hover {
+    background-color: #cecece8e;
+}
+
+.custom-toggler.navbar-toggler{
+    border-color: 3px solid #686868a2;
+}
+
+
+/* PERSONALIZACION Linea MENU HAMBURGUESA */
+
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler .navbar-toggler-icon:hover {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px;
+    height: 70px;
+    /*fondo de color*/
+    background-color: #020000cc;
+    border-radius: 14px;
+}
+
+.carousel {
+    width: 100vw; /* Ancho completo de la ventana del navegador */
+}
+
+.carousel-inner {
+    width: calc(100% + 30px); /* Ancho completo del contenedor del carrusel */
+    margin-left: -15px; /* Compensación para los márgenes negativos */
+    margin-right: -15px; /* Compensación para los márgenes negativos */
+}
+
+.carousel-item {
+    width: 100vw; /* Ancho completo de la ventana del navegador */
+}
+
+.carousel-item img {
+    width: 100%; /* Ancho completo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.titulo1{
+    font-size: 100px;
+}
+
+header h1{
+    height: 400px;
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+.rrss{
+    width: 50px; 
+    margin: 0 10px;
+}
+
+.wa{
+    width: 80px;
+    padding-left: -40px;
+    margin-left: -9px;
+    
+}
+
+.banner1 {
+    background-image: url('../imagenes/aboutusbanner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    height: 300px;
+}
+
+.fondoFooter{
+    background-color: #ffffff;
+    margin-left: -30px;
+    margin-right: -35px;
+    margin-bottom: -40px;
+    padding-top: 10px;
+    padding-bottom: 10px;;
+}
+
+.fondoFooter h2, h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+
+
+
