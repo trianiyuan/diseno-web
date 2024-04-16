@@ -52,33 +52,6 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 50px;
-    height: 70px;
-    /*fondo de color*/
-    background-color: #020000cc;
-    border-radius: 14px;
-}
-
-.carousel {
-    width: 100vw; /* Ancho completo de la ventana del navegador */
-}
-
-.carousel-inner {
-    width: calc(100% + 30px); /* Ancho completo del contenedor del carrusel */
-    margin-left: -15px; /* Compensación para los márgenes negativos */
-    margin-right: -15px; /* Compensación para los márgenes negativos */
-}
-
-.carousel-item {
-    width: 100vw; /* Ancho completo de la ventana del navegador */
-}
-
-.carousel-item img {
-    width: 100%; /* Ancho completo de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
-}
 
 .titulo1{
     font-size: 100px;
@@ -93,6 +66,52 @@ header h1{
     font-weight: 400;
     font-style: normal;
 } 
+
+.rombo {
+    clip-path: polygon(50% 0%, 90% 50%, 50% 100%, 10% 50%);
+}
+
+.container-botonws {
+    /*color de fondo imagen*/
+    background-color: #e4e4e407; 
+    position: fixed;
+    z-index: 1000;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 25px;
+    transition: ease 0.3s;
+    animation: efecto 1.2s infinite;
+}
+
+.container-botonws:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+/*efecto de animación imagen chat*/
+
+.botonws {
+    width: 60px;
+    transition: ease 1s;
+}
+
+@keyframes efecto {
+    0% {
+        box-shadow: 0 0 0 0 rgba(136, 121, 121, 0.85);
+    }
+    100% {
+        box-shadow: 0 0 0 25px rgba(0, 0, 0, 0);
+    }
+}
+
+.hr-black {
+    border-top: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
 .rrss{
     width: 50px; 
     margin: 0 10px;
@@ -109,19 +128,94 @@ header h1{
     
 }
 
-.custom-color1 {
-    background-color: #c9bba2 !important; /* Puedes cambiar este valor al color que desees */
-    border-color: #ff1493; /* Puedes cambiar este valor al color que desees */
-    color: #fff; /* Color de texto */
+
+/*formulario*/
+
+label {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bolder;
+    float: left;
+    
 }
 
-.img-size {
-    width: 100%; /* Las imágenes ocuparán el 100% del ancho de su contenedor */
-    height: auto; /* Define el alto */
+.fondo3 {
+    background-image: url(../imagenes/contactusform.jpg);
+    width: 100%;
 }
+
+
+/* Para agregar un borde cuando se activan los campos */
+
+input:hover {
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+textarea:hover {
+    outline: 1px solid rgb(0, 0, 0);
+}
+
+
+/* Propiedades de los campos */
+
+input,
+textarea {
+    cursor: pointer;
+    background-color: #ffffff !important;
+}
+
+
+textarea {
+    resize: none;
+    /*
+  height:150px;
+  max-height:150px;
+  min-height:150px;
+  max-width:auto;
+  min-width:400px;*/
+}
+
+
+
+
+.enviar, .borrar {
+    width: 170px;
+    height: 60px;
+    color: #000000;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px 20px;
+    border-width: 2px;
+    border: 2px solid transparent;
+    background-color: #000000;
+    transition: all 0.3s ease;
+    border-radius: 30px;
+}
+
+.enviar:hover, .borrar:hover {
+    background-color: rgba(0, 0, 0, 0.753) !important;
+    color: #ffffff;
+}
+
+.enviar:focus, .borrar:focus {
+    outline: none;
+}
+
+.enviar {
+    margin-right: 20px;
+    background-color: #000000;
+}
+
+.borrar {
+    background-color: #333;
+}
+
+
 
 .banner1 {
-    background-image: url('../imagenes/aboutusbanner.jpg');
+    background-image: url('../imagenes/contactbanner.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

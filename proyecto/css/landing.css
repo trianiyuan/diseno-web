@@ -52,6 +52,90 @@
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* Estilos para la lista de enlaces */
+.list-group-item {
+    border-color: transparent;
+    background-color: transparent;
+    color: #000000; /* Color de texto */
+    transition: background-color 0.3s ease;
+    border-radius: 80px;
+}
+
+/* Estilos para el encabezado de cada sección */
+.list-group-item.bg-secondary {
+    font-size: 39px;
+    color: #fff; /* Color de texto para el encabezado */
+    border-color: transparent;
+    background-color: #cac0b1 !important;  /* Color de fondo del encabezado */
+}
+
+/* Estilos cuando el mouse pasa sobre los enlaces */
+.list-group-item:hover {
+    background-color: #dddddd; /* Cambio de color de fondo */
+}
+
+.price-container {
+    height: 400px; /* Mismo tamaño que la imagen de fondo */
+    margin-bottom: 20px;
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    height: 100%;
+    background-color: #fff;
+    border: 2px solid #d6d6d600;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-left: 0px;
+    width: 250px;
+    height: 400px; /* Ajusta la altura según el tamaño de la imagen */
+    background-size: 100% 100%; 
+}
+
+.price-table:hover {
+    background-color: #411014;
+    margin-top: -40px;
+    z-index: 10;
+    transform: scale(1.2);
+    transition: all 0.2s ease-in;
+    border: none;
+}
+
+.price-table:hover * {
+    color: #000000 !important;
+}
+
+.price-table.primero {
+    background-image: url('../imagenes/brow3.jpg'); 
+    box-shadow: inset 0 0 0 1000px rgba(175, 175, 175, 0.37);
+    
+}
+
+.price-table.segundo {
+    background-image: url('../imagenes/base1.jpg'); 
+    box-shadow: inset 0 0 0 1000px rgba(175, 175, 175, 0.37);
+}
+
+.price-table.tercero {
+    background-image: url('../imagenes/labiales4.jpg'); 
+    box-shadow: inset 0 0 0 1000px rgba(175, 175, 175, 0.37);
+}
+
+.bt2 {
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 18px;
+    cursor: pointer;
+    border-width: 2px;
+    border-color: #ffffff;
+    background-color: rgb(218, 208, 189) !important;
+}
+
+
 
 
 header{
