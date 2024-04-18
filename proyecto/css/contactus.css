@@ -92,7 +92,7 @@ header h1{
 /*efecto de animación imagen chat*/
 
 .botonws {
-    width: 60px;
+    width: 100px;
     transition: ease 1s;
 }
 
