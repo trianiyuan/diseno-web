@@ -20,6 +20,9 @@
         height: auto; 
         display: block; 
     }
+    h1 {
+        font-size: 15px;
+    }
 }
 
 
@@ -41,6 +44,15 @@
         height: auto; 
         display: block; 
     }
+    h1 {
+        font-size: 15px;
+    }
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 55px;
+    } 
 }
 
 @media (max-width: 710px) {
@@ -60,5 +72,8 @@
         max-width:70%; 
         height: auto; 
         display: block; 
+    }
+    h1 {
+        font-size: 15px;
     }
 }
